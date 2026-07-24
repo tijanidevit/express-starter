@@ -1,4 +1,4 @@
-# This and Know Peace
+# Node This and Know Peace
 
 A basic Node.js Express setup project with an organized architectural structure.
 
@@ -29,7 +29,12 @@ A basic Node.js Express setup project with an organized architectural structure.
    ```
 
 3. **Environment Setup:**
-   Create a `.env` file in the root directory and add your necessary environment variables (e.g., `PORT`).
+   - Create a `.env` file in the root directory and add your necessary environment variables (e.g., `PORT`).
+   - Copy the database configuration example:
+     ```bash
+     cp src/config/config.json.example src/config/config.json
+     ```
+     Then, update `src/config/config.json` with your actual database credentials.
 
 4. **Run the application:**
    
